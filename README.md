@@ -1,4 +1,4 @@
-# Stock Prediction using LSTM. 
+# Stock Prediction using LSTM
 
 Stock Prediction is volatile. Do not use this as your primary model of prediction, no matter how sweet the output might
 be. 
