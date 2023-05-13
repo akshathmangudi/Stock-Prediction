@@ -25,15 +25,7 @@ Install the necessary dependencies.
 6. scikit-learn
 7. keras
 
-1. > pip install tensorflow
-2. > pip install numpy
-3. > pip install pandas
-4. > pip install matplotlib
-5. > pip install pandas-datareader
-6. > pip install scikit-learn
-7. > pip install keras
-
-Or, this can be used: 
+This can be install using a virtual environment (venv) and the dependencies added to a text file. 
 > pip install -r dependencies.txt
 
 Step 2: dir into the repo and run the code you want to run. 
