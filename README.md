@@ -25,13 +25,13 @@ Install the necessary dependencies.
 6. scikit-learn
 7. keras
 
-> pip install tensorflow
-> pip install numpy
-> pip install pandas
-> pip install matplotlib
-> pip install pandas-datareader
-> pip install scikit-learn
-> pip install keras
+1. > pip install tensorflow
+2. > pip install numpy
+3. > pip install pandas
+4. > pip install matplotlib
+5. > pip install pandas-datareader
+6. > pip install scikit-learn
+7. > pip install keras
 
 Or, this can be used: 
 > pip install -r dependencies.txt
