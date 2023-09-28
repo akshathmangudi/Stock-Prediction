@@ -1,7 +1,5 @@
-# Stock Prediction using LSTM
-
-Stock Prediction is volatile. Do not use this as your primary model of prediction, no matter how sweet the output might
-be. 
+# Stock Prediction
+NOTE: STOCK PREDICTION IS VOLATILE. DO NOT USE THIS AS YOUR PREDICTION MODEL.
 
 File info: 
 1. stock-info.ipynb
@@ -13,27 +11,68 @@ Data source must be either Kaggle or Alphavantage. Handling other data sources w
 stock-lstm.ipynb: Contains the actual code including model implementation, error of the model and quantitatively comparing
 Simple and Stacked LSTM networks. 
 
-To run the codes: cd into your desired directory and clone the repository. 
-> git clone https://github.com/akshathmangudi/Stock-Prediction.git
+Clone the repository:
+```bash
+$ git clone https://github.com/akshathmangudi/Stock-Prediction.git
+$ Stock-Prediction/
+```
 
-Install the necessary dependencies. 
-1. tensorflow
-2. numpy
-3. pandas
-4. matplotlib
-5. pandas-datareader
-6. scikit-learn
-7. keras
+## Table of Contents
+<a href=""> Creating a virtualvenv </a>
+<a href=""> Dependencies </a>
+<a href=""> Run the notebook </a>
 
-This can be install using a virtual environment (venv) and the dependencies added to a text file. 
-> pip install -r dependencies.txt
+### Creating virtualvenv
+For Python 3.6+ users: 
+```shell
+$ python -m venv /path/to/virtualenv
+```
+For activation of virtualenv:
+bash/zsh: 
+```bash 
+$ source <venv>/bin/activate
+```
+fish: 
+```shell
+$ source <venv/bin/activate.fish
+```
+cmd.exe: 
+```shell
+C:\> <venv>\Scripts\activate.bat
+```
+```shell
+PowerShell: 
+PS C:\> <venv>\Scripts\activate.ps1
+```
 
-Step 2: dir into the repo and run the code you want to run. 
-For stock-info: 
-> jupyter notebook stock-info.ipynb
+For conda users, the following commands are to be sequentially passed into your terminal:
+```bash
+$ conda -V
+$ conda update conda
+$ conda create -n <envname> python=x.x anaconda
+$ conda activate <envname>
+```
 
-For stock-lstm: 
-> jupyter notebook stock-lstm.ipynb
+For deactivation: 
+```bash
+$ conda deactivate
+```
 
-If you encounter any errors, please contact me on Gmail and specify the error. 
-Email: akshathmangudi@gmail.com
+### Dependencies
+The dependencies required to run this notebook can be installed using the below command. 
+```bash
+$ pip install -r requirements.txt
+```
+
+### Run the notebook
+For stock-info:
+```bash
+jupyter notebook stock-info.ipynb
+```
+
+For stock-lstm:
+```bash
+jupyter notebook stock-lstm.ipynb
+```
+
+Project by Akshath Mangudi (2023)
