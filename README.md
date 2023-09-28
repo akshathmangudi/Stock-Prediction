@@ -18,9 +18,9 @@ $ Stock-Prediction/
 ```
 
 ## Table of Contents
-<a href=""> Creating a virtualvenv </a>
-<a href=""> Dependencies </a>
-<a href=""> Run the notebook </a>
+* <a href="https://github.com/akshathmangudi/Stock-Prediction#creating-virtualvenv"> Creating a virtualvenv </a>
+* <a href="https://github.com/akshathmangudi/Stock-Prediction#dependencies"> Dependencies </a>
+* <a href="https://github.com/akshathmangudi/Stock-Prediction#run-the-notebook"> Run the notebook </a>
 
 ### Creating virtualvenv
 For Python 3.6+ users: 
